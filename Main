@@ -1,0 +1,38 @@
+import numpy as n
+import time as t
+import pi2go as go
+nDist = None
+eDist = None
+sDist = None
+wDist = None
+nsDist = None
+ewDist = None
+
+
+n.zeros(300, 300)
+def setDist(curdist):
+    curdist=go.getDistance()
+def rotate(deg):
+    go.spinRight(50)
+    t.sleep(deg/100)
+    go.spinRight(0)
+
+
+
+setDist(nDist)
+rotate(90)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
